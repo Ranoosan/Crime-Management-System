@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    /* margin: 0;
+    padding: 20px; */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0a2e52;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0a2e52;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.alert {
+    padding: 15px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.success {
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+button,
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #0a2e52;
+    /* Set the button background color */
+    color: white;
+    /* Set the text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    /* Add a consistent font size */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #063145;
+    /* Darken the button color on hover */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    /* Add border for input fields */
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="file"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #0a2e52;
+    /* Change border color to match the button on focus */
+    outline: none;
+}
+
+.success {
+    padding: 15px;
+    background-color: #4CAF50;
+    /* Success message background color */
+    color: white;
+    margin-bottom: 20px;
+}
